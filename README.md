@@ -1,0 +1,2 @@
+# generateChineseName
+generateChineseName
