@@ -1,51 +1,56 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI 中文取名助手</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>AI Chinese Name Generator</title>
+    <link rel="stylesheet" href="landing-styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>AI 中文取名助手</h1>
-        
-        <form id="nameForm" class="name-form">
-            <div class="form-group">
-                <label for="originalName">你的原名</label>
-                <input type="text" id="originalName" required>
-            </div>
-
-            <div class="form-group">
-                <label for="gender">性别</label>
-                <select id="gender">
-                    <option value="male">男</option>
-                    <option value="female">女</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="style">名字风格</label>
-                <select id="style">
-                    <option value="modern">现代</option>
-                    <option value="traditional">传统</option>
-                    <option value="artistic">文艺</option>
-                </select>
-            </div>
-
-            <button type="submit">生成名字</button>
-        </form>
-
-        <div id="results" class="results hidden">
-            <h2>为你推荐的名字：</h2>
-            <div id="namesList" class="names-list"></div>
+        <div class="hero">
+            <h1>AI-Powered Chinese Name Generator</h1>
+            <p class="subtitle">Get a meaningful Chinese name that matches your personality</p>
         </div>
 
-        <div id="loading" class="loading hidden">
-            <span>正在生成名字...</span>
+        <div class="features-section">
+            <h2>✨ Coming Soon:</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Personalized Names</h3>
+                    <p>AI-generated names that match your personality</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎴</div>
+                    <h3>Cultural Meaning</h3>
+                    <p>Detailed explanation of your name's cultural significance</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🗣️</div>
+                    <h3>Pronunciation</h3>
+                    <p>Audio guide to pronounce your name correctly</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Popularity Analysis</h3>
+                    <p>Understand how common your name is in China</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeAwh8--15FSgc31jWXHeUrPohymHxEXknUcQlkmsjjLcGruw/viewform?embedded=true" 
+                width="760" 
+                height="800" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0"
+            >
+                Loading...
+            </iframe>
         </div>
     </div>
-
-    <script src="app.js"></script>
 </body>
 </html> 
